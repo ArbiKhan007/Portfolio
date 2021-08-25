@@ -16,10 +16,28 @@ function Education() {
     <Page title="Education">
       <EduBox>
         <div>
-          <div className="d-flex justify-content-between">
+          <h2>Degree Name</h2>
+          <h3>School/College Name</h3>
+        </div>
+        <div>
+          <h5>2020 to {new Date().getFullYear()}</h5>
+        </div>
+
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            in vitae sint nulla delectus quidem esse ipsa impedit consequuntur
+            tenetur tempore dolor unde illo iste, quia praesentium distinctio
+            harum alias!
+          </p>
+        </div>
+      </EduBox>
+      <EduBox>
+        <div>
+          <div>
             <div>
               <h2>Degree Name</h2>
-              <h3>School/College Name</h3>
+              <h3>Integral University Lucknow</h3>
             </div>
             <div>
               <h5>2020 to {new Date().getFullYear()}</h5>
@@ -36,27 +54,7 @@ function Education() {
       </EduBox>
       <EduBox>
         <div>
-          <div className="d-flex justify-content-between">
-            <div>
-              <h2>Degree Name</h2>
-              <h3>School/College Name</h3>
-            </div>
-            <div>
-              <h5>2020 to {new Date().getFullYear()}</h5>
-            </div>
-          </div>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-            in vitae sint nulla delectus quidem esse ipsa impedit consequuntur
-            tenetur tempore dolor unde illo iste, quia praesentium distinctio
-            harum alias!
-          </p>
-        </div>
-      </EduBox>
-      <EduBox>
-        <div>
-          <div className="d-flex justify-content-between">
+          <div>
             <div>
               <h2>Degree Name</h2>
               <h3>School/College Name</h3>

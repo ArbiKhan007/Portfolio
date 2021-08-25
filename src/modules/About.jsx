@@ -2,29 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import Page from "./Page";
 
-import man from "../assets/man.jpg";
-
 const Me = styled.h1`
   color: #fff;
   font-family: "Urbanist", sans-serif;
-`;
-
-const Photo = styled.img`
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 300px;
-  height: auto;
-  border: 3px solid #fff;
-  margin: 20px 10px;
 `;
 
 function About() {
   return (
     <Page title="About ME">
       <div>
-        <Photo src={man} alt="AAQUIB MIRZA" />
-
         <Me className="display-3">AAQUIB MIRZA</Me>
         <p className="lead text-content">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam totam

@@ -13,6 +13,10 @@ const ProjBox = styled.div`
   margin-right: 20px;
   transition: transform 0.5s ease-out;
 
+  a {
+    color: #000;
+  }
+
   @media ${device.laptop} {
     width: 320px;
     height: 400px;

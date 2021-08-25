@@ -15,7 +15,7 @@ function Experience() {
   return (
     <Page title="Experience">
       <JobBox>
-        <div className="d-flex justify-content-between">
+        <div>
           <div>
             <h2>Job Post</h2>
             <h3>Company Name</h3>
@@ -33,7 +33,7 @@ function Experience() {
         </p>
       </JobBox>
       <JobBox>
-        <div className="d-flex justify-content-between">
+        <div>
           <div>
             <h2>Job Post</h2>
             <h3>Company Name</h3>
@@ -51,7 +51,7 @@ function Experience() {
         </p>
       </JobBox>
       <JobBox>
-        <div className="d-flex justify-content-between">
+        <div>
           <div>
             <h2>Job Post</h2>
             <h3>Company Name</h3>
