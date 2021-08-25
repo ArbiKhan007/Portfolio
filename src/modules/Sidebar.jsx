@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SectionLink from "./SectionLink";
 import { device } from "../device";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 const SidebarDiv = styled.div`
   border-top: 3px solid #fff;
@@ -60,7 +60,7 @@ function Sidebar(props) {
   return (
     <div>
       <Burger onClick={() => setDisplay((prev) => !prev)}>
-        <FontAwesomeIcon icon={faBars} size="2x" />
+        <FontAwesomeIcon icon={display ? faTimes : faBars} size="2x" />
       </Burger>
 
       <SidebarDiv display={display} className={props.className}>
