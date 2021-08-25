@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Page from "./Page";
 import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -48,19 +48,19 @@ function Links() {
   return (
     <Page title="Links">
       <LinkBox>
-        <a href="#">LinkedIn</a>
+        <a href="/">LinkedIn</a>
         <FontAwesomeIcon icon={faLinkedin} />
       </LinkBox>
       <LinkBox>
-        <a href="#">GitHub</a>
+        <a href="/">GitHub</a>
         <FontAwesomeIcon icon={faGithub} />
       </LinkBox>
       <LinkBox>
-        <a href="#">Facebook</a>
+        <a href="/">Facebook</a>
         <FontAwesomeIcon icon={faFacebook} />
       </LinkBox>
       <LinkBox>
-        <a href="#">Instagram</a>
+        <a href="/">Instagram</a>
         <FontAwesomeIcon icon={faInstagram} />
       </LinkBox>
     </Page>

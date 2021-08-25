@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SectionLink from "./SectionLink";
 import { device } from "../device";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const SidebarDiv = styled.div`
   border-top: 3px solid #fff;

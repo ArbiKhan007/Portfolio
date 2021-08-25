@@ -4,7 +4,7 @@ import {
   faMobile,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import Page from "./Page";
 
@@ -38,15 +38,12 @@ function Contact() {
     <Page title="Contact">
       <ContactBox>
         <FontAwesomeIcon icon={faMobile} />
-        <h3 className=""></h3>
       </ContactBox>
       <ContactBox>
         <FontAwesomeIcon icon={faMailBulk} />
-        <h3 className=""></h3>
       </ContactBox>
       <ContactBox>
         <FontAwesomeIcon icon={faAddressCard} />
-        <h3 className=""></h3>
       </ContactBox>
     </Page>
   );
