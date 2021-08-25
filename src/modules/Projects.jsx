@@ -4,7 +4,7 @@ import Page from "./Page";
 import { device } from "../device";
 
 const ProjBox = styled.div`
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: #fff;
   color: #000;
@@ -32,7 +32,7 @@ function Projects() {
         qui beatae, ratione, quisquam magni repellat delectus.
       </p>
 
-      <div className="d-flex justify-content-between row container">
+      <div className="d-flex justify-content-between row">
         <ProjBox className="col">
           <h1>Project Name</h1>
           <p>
